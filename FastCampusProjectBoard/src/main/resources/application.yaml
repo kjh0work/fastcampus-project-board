@@ -51,4 +51,4 @@ spring:
 #  sql:
 #    init:
 #      mode: always
-  #test.database.replace: none
+#  test.database.replace: none
