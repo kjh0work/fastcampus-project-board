@@ -31,7 +31,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    testImplementation("com.h2database:h2")
+    runtimeOnly("com.h2database:h2")
     implementation("com.mysql:mysql-connector-j")
 
 
