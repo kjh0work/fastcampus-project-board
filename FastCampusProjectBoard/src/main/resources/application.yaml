@@ -29,9 +29,6 @@ spring:
       hibernate:
         default_batch_fetch_size: 100
         format_sql: true
-  h2:
-    console:
-      enabled: false
   sql:
     init:
       mode: always
